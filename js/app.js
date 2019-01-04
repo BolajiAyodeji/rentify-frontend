@@ -14,8 +14,8 @@ $.ajax({
         for (let i = 0; i < data.length; i++) {
             let name = data[i].name;
             let productImage = data[i].image;
-            let dailyRentalFee = data[i].dailyRentalFee;
             let description = data[i].description;
+            let dailyRentalFee = data[i].dailyRentalFee;
             let numberInStock = data[i].numberInStock;
 
 
