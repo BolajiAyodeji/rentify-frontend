@@ -8,6 +8,7 @@ $.ajax({
     type: 'GET',
     url: 'https://murmuring-forest-71544.herokuapp.com/api/electronics',
     success: function (data) {
+        console.log('data');
         for (let i = 0; i < data.length; i++) {
             let name = data[i].name;
             let productImage = data[i].image;

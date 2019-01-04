@@ -9,6 +9,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
         "indent": [
             "error",
             4
@@ -24,6 +25,9 @@
         "semi": [
             "error",
             "always"
+        ],
+        "eslint": [
+            "no-console"
         ]
     }
 }
