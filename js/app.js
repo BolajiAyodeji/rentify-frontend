@@ -14,15 +14,9 @@ $.ajax({
         for (let i = 0; i < data.length; i++) {
             let name = data[i].name;
             let productImage = data[i].image;
-            let keywords = data[i].keywords;
-            let productId = data[i]._id;
             let dailyRentalFee = data[i].dailyRentalFee;
             let description = data[i].description;
-            let serialNumber = data[i].serialNumber;
-            let productionYear = data[i].productionYear;
-            let category = data[i].category;
             let numberInStock = data[i].numberInStock;
-            let version = data[i].__v;
 
 
             //UI variables
