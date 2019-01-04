@@ -34,6 +34,10 @@ body {
   .rent ul li {
     margin-bottom: 1rem;
   }
+
+  .rent ul h6 {
+      text-transform: uppercase;
+  }
   
   .rent .btn {
     font-size: 80%;

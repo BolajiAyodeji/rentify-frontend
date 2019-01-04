@@ -25,8 +25,11 @@ $.ajax({
                         <img src="img/logo.png" class="card-details text-center img-fluid">
                         <hr>
                         <ul class="fa-ul">
+                            <h6>Description</h6>
                             <li><span class="fa-li"><i class="fas fa-caret-right"></i></span>${description}</li>
+                            <h6>Rental fee</h6>
                             <li><span class="fa-li"><i class="fas fa-caret-right"></i></span>${dailyRentalFee}</li>
+                            <h6>In Stock</h6>
                             <li><span class="fa-li"><i class="fas fa-caret-right"></i></span>${numberInStock}</li>
                         </ul>
                         <a href="#" class="btn btn-block btn-primary text-uppercase">Rent Now</a>
