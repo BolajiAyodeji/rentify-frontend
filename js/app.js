@@ -15,7 +15,7 @@ $.ajax({
             let dailyRentalFee = data[i].dailyRentalFee;
             let numberInStock = data[i].numberInStock;
 
-            if (data[i].description.length > 20) {
+            if (description.length > 20) {
                 description = description.slice(0, 50);
             } else {
                 description;
