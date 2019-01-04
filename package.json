@@ -1,0 +1,23 @@
+{
+  "name": "rentify-frontend",
+  "version": "1.0.0",
+  "description": "Rentify UI",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolajiAyodeji/rentify-frontend.git"
+  },
+  "keywords": [
+    "Rentify",
+    "UI"
+  ],
+  "author": "Favcode54",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BolajiAyodeji/rentify-frontend/issues"
+  },
+  "homepage": "https://github.com/BolajiAyodeji/rentify-frontend#readme"
+}
