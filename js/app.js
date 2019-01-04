@@ -8,7 +8,6 @@ $.ajax({
     type: 'GET',
     url: 'https://murmuring-forest-71544.herokuapp.com/api/electronics',
     success: function (data) {
-        console.log('data');
         for (let i = 0; i < data.length; i++) {
             let name = data[i].name;
             let productImage = data[i].image;
@@ -16,7 +15,11 @@ $.ajax({
             let dailyRentalFee = data[i].dailyRentalFee;
             let numberInStock = data[i].numberInStock;
 
-
+            if (data[i].description.length > 20) {
+                description = description.slice(0, 50);
+            } else {
+                description;
+            }
 
             let toAppend = `<!-- Rent Card -->
             <div class="col-lg-3 col-md-6 col-12">
