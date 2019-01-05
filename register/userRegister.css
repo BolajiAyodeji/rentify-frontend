@@ -1,3 +1,7 @@
+a {
+  color: #000;
+  text-decoration: 2px solid dotted;
+}
 .myform {
   position: relative;
   display: -ms-flexbox;
