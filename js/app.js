@@ -26,7 +26,7 @@ $.ajax({
                 <div class="card mb-5 mb-lg-0">
                     <div class="card-body">
                         <h5 class="card-title text-muted text-uppercase text-center">${name}</h5>
-                        <img src="img/logo.png" class="card-details text-center img-fluid">
+                        <img src="${productImage}" class="card-details text-center img-fluid">
                         <hr>
                         <ul class="fa-ul">
                             <h6><i class="fas fa-caret-right"></i> Description</h6>
