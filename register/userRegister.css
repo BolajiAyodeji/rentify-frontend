@@ -1,9 +1,11 @@
 .form-group p a {
   color: #000;
 }
+
 .form-group p a:hover {
   color: #007bff;
 }
+
 .myform {
   position: relative;
   display: -ms-flexbox;
