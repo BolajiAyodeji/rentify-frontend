@@ -38,7 +38,7 @@ $.ajax({
             let numberInStock = data[i].numberInStock;
 
             if (description.length > 20) {
-                description = description.slice(0, 50);
+                description = description.slice(0, 50) + '...';
             } else {
                 description;
             }
