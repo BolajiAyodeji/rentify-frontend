@@ -7,6 +7,26 @@ html {
 body {
     background: rgb(217, 232, 236);
 }
+.navbar {
+	text-align: center;
+	padding: 25px;
+	list-style: none;
+}
+.navbar-brand{
+    margin-right: 40px;
+}
+.navbar li {
+	display: inline;
+	margin: 8px;
+}
+.navbar li a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+    line-height: 2px;
+	margin: 0px 15px;
+}
+
 
 header {
     position: relative;
@@ -14,17 +34,13 @@ header {
     background: #007bff;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-  }
-  
-  h1 {
-    margin: 0;
-    padding: 100px 0;
-    font: 44px;
-    text-align: center;
-  }
+  } 
   
   header h1 {
     color: #fff;
+    margin: 0;
+    padding: 100px 0;
+    text-align: center;
   }
   
   .rent .card {
