@@ -22,8 +22,10 @@ self.addEventListener('fetch', function (event) {
                             '/css/app.css',
                             '/js/app.js',
                             '/img/logo.png',
-                            '/img/logo-social.png',
                             '/manifest.js',
+                            '/https://murmuring-forest-71544.herokuapp.com/api',
+                            '/https://murmuring-forest-71544.herokuapp.com/api/electronics',
+                            '/https://murmuring-forest-71544.herokuapp.com/api/electronics/categories',
                             '/https://use.fontawesome.com/releases/v5.6.3/css/all.css',
                             '/https://fonts.googleapis.com/css?family=Poppins:200,300,400,500',
                         ]);
