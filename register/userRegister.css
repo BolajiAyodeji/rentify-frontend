@@ -8,7 +8,7 @@
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
+  padding: 2rem;
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
@@ -16,7 +16,7 @@
   background-color: #fff;
   background-clip: padding-box;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  border-radius: 1.1rem;
+  border-radius: 1rem;
   outline: 0;
   max-width: 500px;
   margin: 30px;
