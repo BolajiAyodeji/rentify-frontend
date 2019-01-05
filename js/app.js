@@ -19,7 +19,7 @@ function getCopyright() {
 getCopyright();
 
 
-//Fetch API
+//Fetch API FOR RENTALS
 let rent_head = `<div class="container">
 <div class="row">`;
 let rent = '';
@@ -70,3 +70,6 @@ $.ajax({
 
     }
 });
+
+
+//SEND ADDED PRODUCTS TO DB
