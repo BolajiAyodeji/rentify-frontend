@@ -7,7 +7,7 @@ getCopyright();
 
 let rent_head = `<div class="container">
 <div class="row">`;
-let rent = ``;
+let rent = '';
 let rent_foot = `</div>
 </div>`;
 
