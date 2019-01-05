@@ -128,13 +128,9 @@ header .jumbotron p {
 /* ADD PRODUCT FORM*/
 .form-add-product {
     width: 100%;
-    max-width: 330px;
+    max-width: 500px;
     padding: 15px;
     margin: auto;
-}
-
-.form-add-product .checkbox {
-    font-weight: 400;
 }
 
 .form-add-product .form-control {
@@ -149,19 +145,7 @@ header .jumbotron p {
     z-index: 2;
 }
 
-.form-add-product input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.form-add-product input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-
-input[type='text'],  [type='email'] {
+input[type='text'],  [type='email'], textarea {
     margin-bottom: 10px;
 }
 
