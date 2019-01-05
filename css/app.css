@@ -164,3 +164,7 @@ header .jumbotron p {
 input {
     margin-bottom: 10px;
 }
+
+footer {
+    padding: 25px;
+}
