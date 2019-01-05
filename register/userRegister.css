@@ -1,6 +1,8 @@
-a {
+.form-group p a {
   color: #000;
-  text-decoration: 2px solid dotted;
+}
+.form-group p a:hover {
+  color: #007bff;
 }
 .myform {
   position: relative;
@@ -17,7 +19,7 @@ a {
   border-radius: 1.1rem;
   outline: 0;
   max-width: 500px;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .tx-tfm {
