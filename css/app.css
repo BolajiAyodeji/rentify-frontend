@@ -161,7 +161,7 @@ header .jumbotron p {
     border-top-right-radius: 0;
 }
 
-input {
+input[type='text'],  [type='email'] {
     margin-bottom: 10px;
 }
 
