@@ -1,3 +1,17 @@
+//Register Service Workers
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('js/sw.js')
+            .then(function () {
+                console.log('Service Worker Registered');
+            });
+    });
+}
+else {
+    console.log('error! Service Worker not Registered');
+}
+
+//Copyright Date
 function getCopyright() {
     let day = new Date();
     let year = '©' + day.getFullYear() + ' All rights reserved, <a href="https://favcode54.org"> Favcode54</a>';
@@ -5,6 +19,8 @@ function getCopyright() {
 }
 getCopyright();
 
+
+//Fetch API
 let rent_head = `<div class="container">
 <div class="row">`;
 let rent = '';
