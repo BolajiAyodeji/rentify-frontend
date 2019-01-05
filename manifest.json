@@ -1,7 +1,8 @@
 {
-    "name": "Rentify",
-    "short_name": "Rentify",
-    "icons": [{
+  "name": "Rentify",
+  "short_name": "Rentify",
+  "icons": [
+    {
       "src": "img/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"
@@ -42,9 +43,8 @@
       "type": "image/png"
     }
   ],
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#ddd",
-    "theme_color": "#007bff"
-  }
-  
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ddd",
+  "theme_color": "#007bff"
+}
