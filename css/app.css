@@ -8,6 +8,19 @@ body {
     background: rgb(217, 232, 236);
     overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #007bff; 
+  }
 
 a {
     color: #fff;
@@ -147,6 +160,10 @@ header .jumbotron p {
 
 input[type='text'],  [type='email'], textarea {
     margin-bottom: 10px;
+}
+
+.btn-block {
+    margin-bottom: 50px;
 }
 
 footer {
