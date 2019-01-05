@@ -4,6 +4,13 @@
 html {
     font-family: 'Poppins', sans-serif;
 }
+a {
+    color: #fff;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #fff;
+}
 body {
     background: rgb(217, 232, 236);
 }
@@ -88,6 +95,9 @@ header {
     opacity: 0.7;
     transition: all 0.2s;
   }
+.fa-ul {
+    margin-left: -5px;
+}
   
   /* Hover Effects on Card */
   

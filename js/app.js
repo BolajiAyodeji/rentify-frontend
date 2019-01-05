@@ -1,3 +1,10 @@
+function getCopyright() {
+    let day = new Date();
+    let year = '©' + day.getFullYear() + ' All rights reserved, <a href="https://favcode54.org"> Favcode54</a>';
+    document.getElementById('copy').innerHTML = year;
+}
+getCopyright();
+
 let rent_head = `<div class="container">
 <div class="row">`;
 let rent = ``;
