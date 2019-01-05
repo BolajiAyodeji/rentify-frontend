@@ -1,13 +1,12 @@
 //Register Service Workers
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-        navigator.serviceWorker.register('js/sw.js')
+        navigator.serviceWorker.register('/js/sw.js')
             .then(function () {
                 console.log('Service Worker Registered');
             });
     });
-}
-else {
+} else {
     console.log('error! Service Worker not Registered');
 }
 
