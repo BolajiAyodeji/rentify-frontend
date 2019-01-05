@@ -42,4 +42,4 @@ self.addEventListener('install', function (event) {
     // The promise that skipWaiting() returns can be safely ignored.
     self.skipWaiting();
     console.log('Latest version installed!');
-});
+};
