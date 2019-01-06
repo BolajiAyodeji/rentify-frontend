@@ -75,6 +75,10 @@ header .jumbotron p {
     color: #fff;
 }
 
+header .jumbotron .btn {
+    border-radius: 20px !important;
+}
+
 .rent .card {
     border: none;
     border-radius: 1rem;
@@ -169,6 +173,9 @@ textarea {
     margin-bottom: 50px;
 }
 
+head-btn {
+    border-radius: 20px !important;
+}
 footer {
     padding: 25px;
 }
