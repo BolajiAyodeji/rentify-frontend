@@ -82,13 +82,13 @@
                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="../about-us.html">About Us</a>
+               <a class="nav-link" href="../about-us">About Us</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="../rent-product.html">Rent Now</a>
+               <a class="nav-link" href="../rent-product">Rent Now</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="../add-product.html">Submit Product</a>
+               <a class="nav-link" href="../add-product">Submit Product</a>
             </li>
             <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -112,131 +112,91 @@
    </nav>
 
    <section>
-      <div class="container register">
+      <div class="container">
          <div class="row">
-            <div class="col-md-3 register-left">
-               <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
-               <h3>Welcome</h3>
-               <p>You are 30 seconds away from earning your own money!</p>
-               <input type="submit" name="" value="Login" /><br />
-            </div>
-            <div class="col-md-9 register-right">
-               <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-                        aria-selected="true">Employee</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-                        aria-selected="false">Hirer</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                     <h3 class="register-heading">Apply as a Employee</h3>
-                     <div class="row register-form">
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="First Name *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="password" class="form-control" placeholder="Password *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <div class="maxl">
-                                 <label class="radio inline">
-                                    <input type="radio" name="gender" value="male" checked>
-                                    <span> Male </span>
-                                 </label>
-                                 <label class="radio inline">
-                                    <input type="radio" name="gender" value="female">
-                                    <span>Female </span>
-                                 </label>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input type="email" class="form-control" placeholder="Your Email *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control"
-                                 placeholder="Your Phone *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <select class="form-control">
-                                 <option class="hidden" selected disabled>Please select your Sequrity Question</option>
-                                 <option>What is your Birthdate?</option>
-                                 <option>What is Your old Phone Number</option>
-                                 <option>What is your Pet Name?</option>
-                              </select>
-                           </div>
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
-                           </div>
-                           <input type="submit" class="btnRegister" value="Register" />
+            <div class="col-md-5 mx-auto">
+               <div id="first">
+                  <div class="myform form ">
+                     <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                           <h1>LOGIN</h1>
+                           <hr />
                         </div>
                      </div>
-                  </div>
-                  <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                     <h3 class="register-heading">Apply as a Hirer</h3>
-                     <div class="row register-form">
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="First Name *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="email" class="form-control" placeholder="Email *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *"
-                                 value="" />
-                           </div>
-
-
+                     <form action="#" method="POST" name="login">
+                        <div class="form-group">
+                           <label for="userEmail">Email address</label>
+                           <input type="email" name="email" class="form-control" id="email" placeholder="bolaji@favcode54.org"
+                              required>
                         </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input type="password" class="form-control" placeholder="Password *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
-                           </div>
-                           <div class="form-group">
-                              <select class="form-control">
-                                 <option class="hidden" selected disabled>Please select your Sequrity Question</option>
-                                 <option>What is your Birthdate?</option>
-                                 <option>What is Your old Phone Number</option>
-                                 <option>What is your Pet Name?</option>
-                              </select>
-                           </div>
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="`Answer *" value="" />
-                           </div>
-                           <input type="submit" class="btnRegister" value="Register" />
+                        <div class="form-group">
+                           <label for="userPassword">Password</label>
+                           <input type="password" name="password" id="password" class="form-control" placeholder="⚫⚫⚫⚫⚫⚫⚫⚫"
+                              required>
+                        </div>
+                        <div class="form-group">
+                           <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
+                        </div>
+                        <div class="col-md-12 text-center ">
+                           <input type="submit" value="Login" class="btn btn-block mybtn btn-primary"></input>
+                        </div>
+                        <div class="form-group">
+                           <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                        </div>
+                     </form>
+
+                  </div>
+               </div>
+               <div id="second">
+                  <div class="myform form ">
+                     <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                           <h1>SIGN UP</h1>
+                           <hr />
                         </div>
                      </div>
+                     <form action="#" name="registration">
+                        <div class="form-group">
+                           <label for="userFName">First Name</label>
+                           <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Bolaji"
+                              required>
+                        </div>
+                        <div class="form-group">
+                           <label for="userLName">Last Name</label>
+                           <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Ayodeji"
+                              required>
+                        </div>
+                        <div class="form-group">
+                           <label for="userEmail">Email address</label>
+                           <input type="email" name="email" class="form-control" id="email" placeholder="bolaji@favcode54.org"
+                              required>
+                        </div>
+                        <div class="form-group">
+                           <label for="userPassword">Password</label>
+                           <input type="password" name="password" id="password" class="form-control" placeholder="⚫⚫⚫⚫⚫⚫⚫⚫"
+                              required>
+                        </div>
+                        <div class="col-md-12 text-center mb-3">
+                           <input type="submit" value="Sign Up" class="btn btn-block mybtn btn-primary"></input>
+                        </div>
+                        <div class="col-md-12 ">
+                           <div class="form-group">
+                              <p class="text-center">Already have an account? <a href="#" id="signin">Login here</a></p>
+                           </div>
+                        </div>
                   </div>
+                  </form>
                </div>
             </div>
          </div>
-
       </div>
+   </section>
 
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-      <script src="userRegister.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+   <script src="userRegister.js"></script>
 
 </body>
 
