@@ -31,16 +31,21 @@ $.ajax({
     url: 'https://murmuring-forest-71544.herokuapp.com/api/electronics',
     success: function (data) {
         for (let i = 0; i < data.length; i++) {
+            console.log({
+                data: data[i]
+            });
             let name = data[i].name;
             let productImage = data[i].image;
             let description = data[i].description;
             let dailyRentalFee = data[i].dailyRentalFee;
             let numberInStock = data[i].numberInStock;
 
-            if (description.length > 20) {
-                description = description.slice(0, 50) + '...';
-            } else {
-                description;
+            if (description) {
+                if (description.length > 20) {
+                    description = description.slice(0, 50) + '...';
+                } else {
+                    description;
+                }
             }
 
             let toAppend = `<!-- Rent Card -->
@@ -64,7 +69,7 @@ $.ajax({
             </div>`;
 
             rent += toAppend;
-            $('.content').html(rent_head + rent + rent_foot);
+            $('.publishedRentals').html(rent_head + rent + rent_foot);
 
         }
 
