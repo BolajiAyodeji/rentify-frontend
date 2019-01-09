@@ -61,5 +61,17 @@ $.ajax({
     }
 });
 
+//Register Service Workers
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/js/sw.js')
+            .then(function () {
+                console.log('Service Worker Registered');
+            });
+    });
+} else {
+    console.log('error! Service Worker not Registered');
+}
+
 
 //SEND ADDED PRODUCTS TO DB
