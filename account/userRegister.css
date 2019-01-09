@@ -21,6 +21,7 @@
   border-radius: 1rem;
   outline: 0;
   max-width: 500px;
+  margin: 25px 0 25px 0;
 }
 
 .mybtn {
@@ -38,8 +39,7 @@
   color: #aaa;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 10px 0 10px 0;
 }
 
 .span-or {
