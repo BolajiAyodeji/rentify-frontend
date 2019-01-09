@@ -4,7 +4,8 @@
   "description": "Rentify UI",
   "main": "app.js",
   "scripts": {
-    "test": "npm run start"
+    "test": "npm run start",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
