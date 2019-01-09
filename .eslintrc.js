@@ -1,19 +1,16 @@
-{
+module.exports = {
     "env": {
         "browser": true,
-        "es6": true,
-        "jquery": true
+        "commonjs": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
+        "ecmaVersion": 5
     },
     "rules": {
-        "no-console": "off",
         "indent": [
             "error",
-            4
+            "tab"
         ],
         "linebreak-style": [
             "error",
@@ -26,9 +23,6 @@
         "semi": [
             "error",
             "always"
-        ],
-        "eslint": [
-            "no-console"
         ]
     }
-}
+};
