@@ -16,7 +16,6 @@ function getCopyright() {
     let year = '©' + day.getFullYear() + ' All rights reserved, <a href="https://favcode54.org"> Favcode54</a>';
     document.getElementById('copy').innerHTML = year;
 }
-getCopyright();
 
 
 //Fetch API FOR RENTALS
