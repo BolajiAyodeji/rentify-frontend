@@ -108,7 +108,20 @@
         <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
-  </nav>
+  </nav><!--Header-->
+    <?php include 'includes/header.php'?>
+
+    <!-- STYLESHEETS-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+<!--Nav Bar-->
+<?php include 'includes/nav.php'?>
 
   <section class="rent py-5">
     <div class="publishedRentals"></div>

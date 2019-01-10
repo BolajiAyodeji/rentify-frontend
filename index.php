@@ -20,8 +20,6 @@
 <!--Nav Bar-->
 <?php include 'includes/nav.php'?>
 
-
-
     <header>
         <div class="row">
             <div class="col-md-6">
