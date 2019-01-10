@@ -7,8 +7,8 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 #remove html file extension
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
 
 ErrorDocument 404 /404.php
 
