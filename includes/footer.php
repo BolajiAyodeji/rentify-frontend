@@ -6,9 +6,7 @@
 
          <!-- Content -->
          <h5 class="text-uppercase">RENTIFY</h5>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ullam eaque amet sed sapiente
-            maiores, nam quae adipisci officia deserunt sequi labore doloribus tempora ut dolorem aliquid,
-            cumque voluptatibus reprehenderit.</p>
+         <p>Rentify is a virtual renting platform that allows you to rent your electronics and book rentals.</p>
       </div>
 
       <hr class="clearfix w-100 d-md-none pb-3">
@@ -16,7 +14,7 @@
       <div class="col-md-3 col-6">
 
          <!-- Links -->
-         <h5 class="text-uppercase">Rent</h5>
+         <h5 class="text-uppercase">Quick Links</h5>
 
          <ul class="list-unstyled">
             <li>
