@@ -64,7 +64,7 @@ $.ajax({
 //Register Service Workers
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/js/sw.js')
+        navigator.serviceWorker.register('./sw.js')
             .then(function () {
                 console.log('Service Worker Registered');
             });
