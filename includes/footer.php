@@ -18,16 +18,22 @@
 
          <ul class="list-unstyled">
             <li>
-               <a href="#!">Link 1</a>
+               <a href="#!">About Us</a>
             </li>
             <li>
-               <a href="#!">Link 2</a>
+               <a href="#!">Login/SignUp</a>
             </li>
             <li>
-               <a href="#!">Link 3</a>
+               <a href="#!">Rent Product</a>
             </li>
             <li>
-               <a href="#!">Link 4</a>
+               <a href="#!">Add Product</a>
+            </li>
+            <li>
+               <a href="#!">FAQ</a>
+            </li>
+            <li>
+               <a href="#!">Blog</a>
             </li>
          </ul>
 
@@ -35,20 +41,25 @@
       <div class="col-md-3 col-6">
 
          <!-- Links -->
-         <h5 class="text-uppercase">Add</h5>
+         <h5 class="text-uppercase">Contact Us</h5>
 
          <ul class="list-unstyled">
             <li>
-               <a href="#!">Link 1</a>
+               <p><i class="fa fa-phone"></i> +234 8109445504</p>
             </li>
             <li>
-               <a href="#!">Link 2</a>
+            <p><i class="fa fa-envelope"></i> info@rentify.io</p>
             </li>
             <li>
-               <a href="#!">Link 3</a>
+            <p><i class="fa fa-map-marker-alt"></i> Favcode54, Oklahoma, USA.</p>
             </li>
             <li>
-               <a href="#!">Link 4</a>
+            <a href="#"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#"><i class="fab fa-codepen fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+
             </li>
          </ul>
 

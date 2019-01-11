@@ -221,3 +221,7 @@ footer {
 .contant_box_404 {
     margin-top: -50px;
 }
+
+li .social-icons {
+    padding: 10px;
+}
