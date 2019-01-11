@@ -1,3 +1,10 @@
+//Preloader Timeout
+setTimeout(function () {
+	$('.preloader').fadeOut();
+	$('#loader').delay(150).fadeOut('slow');
+}, 1000);
+
+
 $('#second').hide();
 
 $('#signup').click(function () {
