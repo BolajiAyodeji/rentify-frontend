@@ -1,3 +1,9 @@
+//Preloader Timeout
+setTimeout(function () {
+    $('.preloader').fadeOut();
+    $('#loader').delay(150).fadeOut('slow');
+}, 500);
+
 //Register Service Workers
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {

@@ -33,6 +33,30 @@ a:hover {
     color: #000;
 }
 
+/*---------------------------------------
+    PRE LOADER
+-----------------------------------------*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center !important;
+    background: none repeat scroll 0 0 #007bff;
+}
+
+#loader {
+    width: 25%;
+    height: auto;
+}
+
 .navbar {
     text-align: center;
     padding: 25px;
