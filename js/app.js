@@ -2,7 +2,7 @@
 setTimeout(function () {
     $('.preloader').fadeOut();
     $('#loader').delay(150).fadeOut('slow');
-}, 500);
+}, 1000);
 
 //Register Service Workers
 if ('serviceWorker' in navigator) {
