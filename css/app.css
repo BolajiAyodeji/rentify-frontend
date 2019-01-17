@@ -209,6 +209,7 @@ footer {
 /* 404 */
 .page_404 {
     padding: 50px;
+    height: 100%;
     background: #fff;
 }
 
