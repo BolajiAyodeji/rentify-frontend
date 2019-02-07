@@ -4,7 +4,8 @@
   "description": "Rentify UI",
   "main": "app.js",
   "scripts": {
-    "test": "npm run start",
+    "build": "babel src -d js -w -s",
+    "test": "npm run build",
     "lint": "eslint"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/BolajiAyodeji/rentify-frontend/issues"
   },
-  "homepage": "https://github.com/BolajiAyodeji/rentify-frontend#readme"
+  "homepage": "https://github.com/BolajiAyodeji/rentify-frontend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
 }

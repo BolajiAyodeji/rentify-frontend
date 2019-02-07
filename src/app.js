@@ -1,5 +1,5 @@
 //Preloader Timeout
-setTimeout(function () {
+const setTimeout = (() =>{
     $('.preloader').fadeOut();
     $('#loader').delay(150).fadeOut('slow');
 }, 1000);
@@ -18,7 +18,7 @@ if ('serviceWorker' in navigator) {
 
 
 //Copyright Date
-function getCopyright() {
+const getCopyright = () =>{
     let day = new Date();
     let year = '©' + day.getFullYear() + ' All rights reserved, <a href="https://favcode54.org"> Favcode54</a>';
     document.getElementById('copy').innerHTML = year;
@@ -79,6 +79,3 @@ $.ajax({
 
     }
 });
-
-
-//REDIRECT USER TO SUCCESS PAGE AFTER ADDING PRODUCT
