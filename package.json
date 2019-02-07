@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d js -w -s",
     "test": "npm run build",
-    "lint": "eslint src/*.js*"
+    "lint": "eslint 
+    src/*.js*"
   },
   "repository": {
     "type": "git",
