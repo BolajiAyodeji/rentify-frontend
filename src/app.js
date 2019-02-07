@@ -18,12 +18,12 @@ if ('serviceWorker' in navigator) {
 
 
 //Copyright Date
-const getCopyright = () => {
+const COPYRIGHT = () => {
     let day = new Date();
     let year = '©' + day.getFullYear() + ' All rights reserved, <a href="https://favcode54.org"> Favcode54</a>';
     document.getElementById('copy').innerHTML = year;
 }
-getCopyright();
+COPYRIGHT();
 
 
 //Fetch API FOR RENTALS

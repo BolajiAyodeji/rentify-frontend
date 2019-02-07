@@ -17,13 +17,13 @@ if ('serviceWorker' in navigator) {
 } //Copyright Date
 
 
-var getCopyright = function getCopyright() {
+var COPYRIGHT = function COPYRIGHT() {
   var day = new Date();
   var year = '©' + day.getFullYear() + ' All rights reserved, <a href="https://favcode54.org"> Favcode54</a>';
   document.getElementById('copy').innerHTML = year;
 };
 
-getCopyright(); //Fetch API FOR RENTALS
+COPYRIGHT(); //Fetch API FOR RENTALS
 
 var rent_head = "<div class=\"container\">\n<div class=\"row\">";
 var rent = '';
