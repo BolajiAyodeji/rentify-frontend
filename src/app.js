@@ -1,12 +1,12 @@
 //Preloader Timeout
-const setTimeout = (() =>{
+setTimeout (() =>{
     $('.preloader').fadeOut();
     $('#loader').delay(150).fadeOut('slow');
 }, 1000);
 
 //Register Service Workers
 if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
+    window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
             .then(function () {
                 console.log('Service Worker Registered');
@@ -18,7 +18,7 @@ if ('serviceWorker' in navigator) {
 
 
 //Copyright Date
-const getCopyright = () =>{
+const getCopyright = () => {
     let day = new Date();
     let year = '©' + day.getFullYear() + ' All rights reserved, <a href="https://favcode54.org"> Favcode54</a>';
     document.getElementById('copy').innerHTML = year;

@@ -1,7 +1,7 @@
 "use strict";
 
 //Preloader Timeout
-var setTimeout = (function () {
+setTimeout(function () {
   $('.preloader').fadeOut();
   $('#loader').delay(150).fadeOut('slow');
 }, 1000); //Register Service Workers
