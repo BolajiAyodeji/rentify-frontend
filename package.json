@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src -d js -w -s",
     "test": "npm run build",
-    "lint": "eslint"
+    "lint": "eslint src/*.js*"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1"
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1"
   }
 }
