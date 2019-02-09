@@ -4,7 +4,7 @@
   "description": "Rentify UI",
   "main": "app.js",
   "scripts": {
-    "build": "babel src -d dist/js -w -s",
+    "build": "babel src -d lib/js -w -s",
     "test": "npm run build",
     "lint": "eslint src/*.js*"
   },
