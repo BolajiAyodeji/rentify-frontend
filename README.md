@@ -7,7 +7,7 @@ Rentify UI
 git clone https://github.com/BolajiAyodeji/rentify-frontend.git
 ```
 ```
-rentify-frontend
+cd rentify-frontend
 ```
 Install dependencies
 ```
